@@ -1,0 +1,22 @@
+# Local configuration and secrets
+config.json
+.env
+.env.*
+
+# Runtime state and logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+state/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and validation artifacts
+*.zip
+*_validation.json
+*_check.json
